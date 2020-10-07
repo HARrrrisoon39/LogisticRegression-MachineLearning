@@ -1,4 +1,3 @@
-# Train a logistic regression classifier to predict whether a flower is iris virginica or not
 from sklearn import datasets
 from sklearn.linear_model import LogisticRegression
 import numpy as np
@@ -26,9 +25,6 @@ plt.plot(X_new, y_prob[:,1], "g-", label="virginica")
 plt.show()
 
 
-# print(y)
-# print(iris["data"])
-# print(X)
 
 
 
